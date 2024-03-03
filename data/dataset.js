@@ -1,23 +1,3 @@
-// const runPrediction = (precipitation, temp_max, temp_min, wind) => {
-//   if (precipitation <= 0.0) {
-//     if (temp_max >= 5.0 && temp_max <= 10.0) {
-//       if (temp_min <= 2.8 && temp_min >= -2.8) {
-//         if (wind <= 5.1 && wind >= 1.3) {
-//           return "sun";
-//         }
-//       }
-//     }
-//   } else {
-//     if (temp_max <= 7.2) {
-//       if (temp_max >= -1.1 && temp_min <= 0.6) {
-//         return "snow";
-//       }
-//     } else {
-//       return "rain";
-//     }
-//   }
-// };
-
 export const dataset = [
   {
     date: "2012-01-01",
